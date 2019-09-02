@@ -11,7 +11,7 @@ export class LoginComponent implements OnInit {
   user =  {
     username: '',
     password: '',
-    remeber:  false
+    remember:  false
   };
 
   constructor(public dialogRef: MatDialogRef<LoginComponent>) { }
